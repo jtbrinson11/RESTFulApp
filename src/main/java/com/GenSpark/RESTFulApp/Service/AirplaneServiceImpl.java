@@ -13,9 +13,9 @@ public class AirplaneServiceImpl implements AirplaneService{
 
     public AirplaneServiceImpl() {
         airplaneList = new ArrayList<>();
-        airplaneList.add(new Airplane(2, "JT", "Aerobatic"));
-        airplaneList.add(new Airplane(1, "Voeing", "Airliner"));
-        airplaneList.add(new Airplane(1, "Gumman", "Military"));
+        airplaneList.add(new Airplane(1, "JT", "Aerobatic"));
+        airplaneList.add(new Airplane(2, "Voeing", "Airliner"));
+        airplaneList.add(new Airplane(3, "Gumman", "Military"));
     }
 
     @Override
